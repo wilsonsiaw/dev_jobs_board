@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend+Deca&display=swap');
 
-button {
+.container {
+    display: flex;
+}
+
+.btn {
+    margin: 0 auto;
+    border: 1px solid red;
     width: 141px;
     height: 48px;
+    border-radius: 5px;
     background: #5964e0;
     border-color: #5964e0;
-    border-radius: 5px;
-
     color: #fff;
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
+    
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #5964e6;
+}
+
