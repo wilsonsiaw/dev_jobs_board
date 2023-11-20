@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
-import menu from '../../assets/burger.svg'
-import triangle from '../../assets/triangle.svg';
+import menu from '../../assets/logos/burger.svg';
 
 const Header = ( { heading }) => {
   return (
